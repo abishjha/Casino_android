@@ -58,26 +58,33 @@ of three ways:
     In order to do so:
     <ul>
       <li> The player must also have the card in her hand
-    whose value is the sum of the cards in the build, e.g.,
-    2 and 3 loose cards are on the table, and the player plays a 5 to create
-    a build of the three cards 2, 3 and 5 because the player also has
-    a 10 card in her hand that she can play in the future to capture
-    the entire build (2 + 3 + 5 = 10). In this scenario, the 2 and 3
-    cards were loose cards, i.e., they were not part of any other
-	build.
-	</li><li>
-    The player is required to hold the 10 card in her hand until the build is
-    captured or another player takes over the build.
-    </li><li> As the player who most recently added a card to the build, the
+      whose value is the sum of the cards in the build, e.g.,
+      2 and 3 loose cards are on the table, and the player plays a 5 to create
+      a build of the three cards 2, 3 and 5 because the player also has
+      a 10 card in her hand that she can play in the future to capture
+      the entire build (2 + 3 + 5 = 10). In this scenario, the 2 and 3
+      cards were loose cards, i.e., they were not part of any other
+      build.
+      </li>
+      <li>
+      The player is required to hold the 10 card in her hand until the build is
+      captured or another player takes over the build.
+      </li>
+      <li> As the player who most recently added a card to the build, the
       player becomes its <b>owner</b>.
-      </li></ul>
+      </li>
+    </ul>
 
-      </li><li> <b>Multiple build:</b>	  
+      </li>
+      <li> 
+        <b>Multiple build:</b>	  
     A player can create <b>multiple builds</b>, all with the same capture
     value, e.g., a build of 6 and 3, another of 5 and 4, and yet
     another of 8 and Ace.
 
-	</li><li> <b>Increasing a build:</b> A player can add a card to a single build owned by an opponent to
+      </li>
+      <li> 
+        <b>Increasing a build:</b> A player can add a card to a single build owned by an opponent to
       increase the value of the build if the player also has the card
       in her hand with the value equal to the increased sum of the
       build, e.g., the opponent has a build of 6+3; the player adds 2
@@ -87,18 +94,8 @@ of three ways:
       the build. But adding a card to a build cannot be done if the
       build is part of multiple builds. It cannot be done by a player
       to his own build.
-</li></ul>
-<!--
-    <p>
-      <b>Converting a single build to a multiple build:</b>
-      A player can convert the opponent's single build into a multiple
-      build, and end up owning the multiple build, e.g., the opponent
-      has single build of 6+3, the player adds a 9 to make it a
-      multiple build. Or the player adds a 5 to a loose 4 card to make
-      it a multiple build. But, this is dumb since the other player
-      has a card to capture the build, this player is giving more
-      points to the other player!    
--->  
+      </li>
+</ul>
 
   </li><li> <b>Capture:</b> The player may play a card to capture one or
     more cards on the table:
@@ -316,13 +313,6 @@ The player who was the last to capture before the game was suspended was the hum
 The first card that will be dealt from the deck is 7 of
 Spades. The next player to play on this round is the human player. 
 <p>
-<!--
-S2 S3 S4 S5 S6 S7 S8 S9 SX SJ SQ SK SA
-C2 C3 C4 C5 C6 C7 C8 C9 CX CJ CQ CK CA
-H2 H3 H4 H5 H6 H7 H8 H9 HX HJ HQ HK HA
-D2 D3 D4 D5 D6 D7 D8 D9 DX DJ DQ DK DA
--->
-
 <hr>
 
    </li><li> When your program is started, it should provide the option to 
@@ -338,5 +328,8 @@ game, and resume playing from that state.
 
 This game was adapted and modified from the description at
 <a href="https://www.pagat.com/fishing/royal_casino.html">pagat.com</a>
+
+   
+
 
 </body></html>
