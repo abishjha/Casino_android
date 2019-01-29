@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Casino</string>
+    <string name="pass">Pass</string>
+    <string name="current_player">MOVE TURN :</string>
+    <string name="move_button">MOVE</string>
+
+    <string name="final_display">|| CONGRATULATIONS ||</string>
+    <string name="new_game">New Game</string>
+    <string name="restart">Restart</string>
+    <string name="reset">Reset Move</string>
+    <string name="Help">
+        CASINO\n\n
+        Casino is a card game played by 2 players. One player is the human, and the other player is the computer.\n\n
+        The objective of this game is to score the most points by capturing cards.\n\n
+        The two players will play a "tournament", consisting of one or more rounds.\n\n
+        Each round will consist of the two players playing till all the cards have been captured. The tournament ends when one of the players scores 21 or more points.\n\n
+        In this game, Kings are valued at 13, Queens at 12, and Jacks at 11. Other cards are valued at their face value.\n\n
+        During her turn, a player plays exactly one card from her hand, in one of three ways:\n
+        1. build : build a build, multi build, or extend a build\n
+        2. capture : capture loose cards or builds or combination of cards\n
+        3. trail : throw a hand card into the loose card pile on the table\n
+    </string>
+    <string name="load_game">Load Game</string>
+    <string name="depthfs">Depth First Search</string>
+    <string name="breadthfs">Breadth First Search</string>
+    <string name="bestfs">Best First Search</string>
+    <string name="Black">Black</string>
+    <string name="White">White</string>
+</resources>

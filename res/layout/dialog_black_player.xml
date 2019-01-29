@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <ImageButton
+        android:id="@+id/choice1"
+        android:layout_width="264dp"
+        android:layout_height="264dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/red_piece"
+        app:layout_constraintEnd_toStartOf="@+id/choice2"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <ImageButton
+        android:id="@+id/choice2"
+        android:layout_width="264dp"
+        android:layout_height="264dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/red_piece"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/choice1"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <TextView
+        android:id="@+id/choiceDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textSize="36sp"
+        app:layout_constraintTop_toBottomOf="@+id/choice1"
+        tools:layout_editor_absoluteX="611dp" />
+</android.support.constraint.ConstraintLayout>
