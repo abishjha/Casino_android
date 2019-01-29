@@ -4,7 +4,6 @@ package edu.ramapo.ajha.casino;
  ************************************************************
  * Name:     Abish Jha                                      *
  * Project:  Casino                                         *
- * Class:    CMPS 366 Organization of Programming Languages *
  * Date:     November 20, 2018                              *
  ************************************************************
  */
