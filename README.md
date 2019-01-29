@@ -74,15 +74,15 @@ of three ways:
       </li>
     </ul>
 
-      </li>
-      <li> 
+  </li>
+  <li> 
         <b>Multiple build:</b>	  
     A player can create <b>multiple builds</b>, all with the same capture
     value, e.g., a build of 6 and 3, another of 5 and 4, and yet
     another of 8 and Ace.
 
-      </li>
-      <li> 
+  </li>
+  <li> 
         <b>Increasing a build:</b> A player can add a card to a single build owned by an opponent to
       increase the value of the build if the player also has the card
       in her hand with the value equal to the increased sum of the
@@ -93,7 +93,7 @@ of three ways:
       the build. But adding a card to a build cannot be done if the
       build is part of multiple builds. It cannot be done by a player
       to his own build.
-      </li>
+  </li>
 </ul>
 
   </li><li> <b>Capture:</b> The player may play a card to capture one or
