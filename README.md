@@ -34,8 +34,7 @@ dealt first to the human player and then to the computer from the remaining deck
 When the deck is exhausted and all the cards have been played,
 the round ends.
 </p><p>
-  In this game, Kings are valued at 13, Queens at 12, and Jacks at 11.
-  Aces can be valued at 14 or 1, as convenient.
+  In this game, Kings are valued at 13, Queens at 12, Jacks at 11, and Aces at 1.
   Other cards are valued at their face value.
 
 </p><h2>A Round</h2>
@@ -110,10 +109,7 @@ of three ways:
 	the table, the player may choose to capture the set of cards
 	or not, e.g., if the player plays an 8, and a 5 and 3 are on
 	the table, the player may choose to capture both the 5 and 3
-	  from the table with her 8 card. If the player plays an Ace
-	(value of 14),
-	the player can capture a King (value of 13) and another Ace
-	(value of 1) on the table. 
+	  from the table with her 8 card.
       </li>
       <li> <b>Combination of individual and set of cards:</b>
 	The player can capture one or more individual cards as well as
