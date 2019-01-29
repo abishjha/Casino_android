@@ -74,15 +74,15 @@ of three ways:
       </li>
     </ul>
 
-  </li>
-  <li> 
+   </li>
+   <li> 
         <b>Multiple build:</b>	  
     A player can create <b>multiple builds</b>, all with the same capture
     value, e.g., a build of 6 and 3, another of 5 and 4, and yet
     another of 8 and Ace.
 
-  </li>
-  <li> 
+   </li>
+   <li> 
         <b>Increasing a build:</b> A player can add a card to a single build owned by an opponent to
       increase the value of the build if the player also has the card
       in her hand with the value equal to the increased sum of the
@@ -93,18 +93,19 @@ of three ways:
       the build. But adding a card to a build cannot be done if the
       build is part of multiple builds. It cannot be done by a player
       to his own build.
-  </li>
-</ul>
+    </li>
+  </ul>
 
-  </li><li> <b>Capture:</b> The player may play a card to capture one or
+ </li>
+ <li> <b>Capture:</b> The player may play a card to capture one or
     more cards on the table:
     <ul>
       <li> <b>Individual card:</b>
 	If the played card matches an individual card on the table,
 	that card must be captured, e.g., if the player plays a 6, the
 	player will capture any and all 6 cards on the table.
-	
-      </li><li> <b>Set of cards:</b>
+      </li>
+      <li> <b>Set of cards:</b>
 	If the played card matches the sum of a set of cards on
 	the table, the player may choose to capture the set of cards
 	or not, e.g., if the player plays an 8, and a 5 and 3 are on
@@ -113,8 +114,8 @@ of three ways:
 	(value of 14),
 	the player can capture a King (value of 13) and another Ace
 	(value of 1) on the table. 
-
-      </li><li> <b>Combination of individual and set of cards:</b>
+      </li>
+      <li> <b>Combination of individual and set of cards:</b>
 	The player can capture one or more individual cards as well as
 	one or more sets of cards all with the same played card, e.g.,
 	if the player plays a 9 and the cards on the table are 9, 5,
@@ -122,17 +123,18 @@ of three ways:
 	9 card since 5 + 4 = 9 and 6 + 3 = 9. Whereas the player must
 	capture the 9 card, capturing the 5 and 4 set or the 6 and 3
 	set is left to the player's discretion.
-
-	</li><li> The above rules apply only as long as the captured cards
+	</li>
+	<li> The above rules apply only as long as the captured cards
 	are not part of a <b>build</b>. <br>
 	  The player has the option to (but is not required to) capture one or more complete
 	  builds (single or multiple) whose value is equal to that of the played card.
-	
-    </li></ul>
+    </li>
+    </ul>
     The played card and the captured card(s) are added to the player's
     pile.
-      
-      </li><li> <b>Trail:</b>
+ </li>
+ <li>
+	<b>Trail:</b>
 	The player plays a card that does not match any individual
 	loose card,
 	and therefore, cannot capture any individual loose card.
@@ -146,7 +148,8 @@ of three ways:
 	Trailing option is not available to the owner of a build - since that
 	player can play the card matching the build to capture it or
 	work on a multiple build.
-</li></ul>
+ </li>
+</ul>
 
 <h3>Round Ending</h3>
 
