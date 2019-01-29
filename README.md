@@ -199,8 +199,7 @@ round plays first.
 
 <ul>
 <li><b>User Interface:</b> You must provide a user-friendly interface
-  for the game. For C++, LISP and Prolog, 
-ASCII graphics and command-line input are sufficient.
+  for the game.
 <ul>
 
   <li> Use syntax to group cards in a build, as well as multiple builds.
