@@ -1,13 +1,10 @@
-# Casino_android
-the casino game for android
-
-
-<!-- saved from url=(0065)https://pages.ramapo.edu/~amruth/teaching/opl/casino/problem.html -->
-<html><script type="text/javascript">Object.defineProperty(window.navigator, 'userAgent', { get: function(){ return 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'; } });</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Casino</title>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Casino</title>
 </head>
 <body>
-<h1>Casino</h1>
+<h1>Casino - Android</h1>
 
 Casino is a card game played by 2 players.
 
@@ -199,20 +196,6 @@ On subsequent rounds, the player who captured last on the previous
 round plays first.
 
 
-<h2>Computer Player's Strategy</h2>
-
-Your computer player must play to win. 
-It must have a strategy for each of the following:
-<ul>
-  <li> Which card to play;
-  </li><li> Whether to capture, build or trail;
-  </li><li> How to build the first build, whether to build multiple builds
-  and whether to extend opponent's build;
-  </li><li> When capturing, whether to capture only the loose cards, or sets and
-    builds also.
-</li></ul>
-
-
 <h2> Implementation</h2>
 
 <ul>
@@ -295,7 +278,7 @@ We will use text format for the file.
 
 <hr>
 
-The text format for C++/Java will be as follows:
+The text format for Java/Android will be as follows:
 <pre>Round: 3
   
 Computer:
@@ -340,90 +323,6 @@ H2 H3 H4 H5 H6 H7 H8 H9 HX HJ HQ HK HA
 D2 D3 D4 D5 D6 D7 D8 D9 DX DJ DQ DK DA
 -->
 
-The text format for LISP will be as follows:
-</p><pre>(
-  ; Round:
-  3
-  
-   ; Computer Score:
-   17
-
-   ; Computer Hand:
-   ( H5 H6 D4 D7 )
-
-   ; Computer Pile:
-   ( SX SQ SK D6 H8 )
- 
-   ; Human Score: 
-   14
-
-   ; Human Hand: 
-   ( SA S4 CA C9 )
-
-   ; Human Pile: 
-   ( DJ DA C3 C5 )
-
-   ; Table:  
-   ( ( ( C6 S3 ) ( S9 ) ) C8 CJ HA )
- 
-   ; Build Owner: 
-   ( ( ( C6 S3 ) ( S9 ) ) Human )
-
-   ; Last Capturer: Human
-   Human
-
-   ; Deck: 
-   ( S7 D3 D5 H2 H3 S5 D8 C2 H9 CX CQ CK HJ S2 S6 D9 DX DQ DK D2 HX HQ HK C4 C7 S8 SJ H4 H7 )
-
-   ; Next Player: 
-   Human
-)
-</pre>
-Note that the comments above are for your convenience.
-You do not need to parse those - they will not appear in actual serialization files.
-<p>
-The text format for Prolog will be as follows:
-</p><pre>[
-  % Round:
-  3,
-  
-   % Computer Score:
-   17,
-
-   % Computer Hand:
-   [ h5, h6, d4, d7 ],
-
-   % Computer Pile:
-   [ sx, sq, sk, d6, h8 ],
- 
-   % Human Score: 
-   14,
-
-   % Human Hand: 
-   [ sa, s4, ca, c9 ],
-
-   % Human Pile: 
-   [ dj, da, c3, c5 ],
-
-   % Table:  
-   [ [ [ c6, s3 ], [ s9 ] ], c8, cj, ha ],
-
-   % Build Owner: 
-   [ [ [ c6, s3 ], [ s9 ] ], human ],
-
-   % Last Capturer: Human
-   human,
-
-   % Deck: 
-   [ s7, d3, d5, h2, h3, s5, d8, c2, h9, cx, cq, ck, hj, s2, s6, d9, dx, dq, dk, d2, hx, hq, hk, c4, c7, s8, sj, h4, h7 ],
-
-   % Next Player: 
-   human
-]
-</pre>
-Note that the comments above are for your convenience.
-You do not need to parse those - they will not appear in actual serialization files.
-
 <hr>
 
    </li><li> When your program is started, it should provide the option to 
@@ -432,34 +331,12 @@ the name of the text file from which to read the current state of the
 game, and resume playing from that state.
   </li></ul>
  
-</li><li>
-Using any part of code available in textbooks or on the web is unacceptable.
-</li></ul>
-
-<h2>Grading</h2>
-
-Please see the rubric for  some of the features on which your program
-will be graded.
-<p>
-<em>Any implementation without serialization cannot qualify for more than 50% of the total points.</em>
-</p><h3>Milestones</h3>
-
-The following are recommended milestones for each project:
-<ul>
-  <li> Week 1: A basic, complete game
-    except the items listed for week 2
-  </li><li> Week 2: All the strategies for the computer player, help for
-  human player and serialization.
-  </li><li> Week 3: Code refactoring, cleaning, documentation.
-</li></ul>
+</li>
 
 
 <h2>Acknowledgments</h2>
 
 This game was adapted and modified from the description at
 <a href="https://www.pagat.com/fishing/royal_casino.html">pagat.com</a>
-
-   
-
 
 </body></html>
